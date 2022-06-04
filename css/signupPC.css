@@ -1,0 +1,32 @@
+/* Hiding Styles for Mobile Screen */
+.mobile {
+    display: none;
+  }
+  
+  /* Styles for whole web page */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: Helvetica, Arial, Sans-serif;
+  }
+  @font-face {
+    font-family: 'Freight Sans Medium';
+    src: url('fonts/Freight Sans Medium.otf');
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  @media screen and (min-width: 769px) {
+    input:focus {
+      outline: none;
+    }
+    select:focus {
+      outline: none;
+    }
+  }
+  
